@@ -8,7 +8,7 @@ class PagesController extends Controller
 {
     public function index(Request $req)
     {
-        return view('welcome');
+        return view('index');
     }
     public function contact(Request $req)
     {
