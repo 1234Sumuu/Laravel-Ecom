@@ -25,4 +25,5 @@ Route::get('/contact', function(){
 });
 
 Route::get('/', [App\Http\Controllers\PagesController::class, 'index']);
-//Route::get('/', [App\Http\Controllers\PagesController::class, 'contact']);
+Route::get('/products', [App\Http\Controllers\PagesController::class, 'products']);
+
