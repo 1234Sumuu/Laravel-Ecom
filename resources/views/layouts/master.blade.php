@@ -17,7 +17,7 @@
         @include('partials.nav')
         @include('partials.style')
         @include('partials.footer')
-        @yield('content')
+        {{-- @yield('content') --}}
 
     </div>
     
